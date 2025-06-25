@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CSK Team Showcase</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="images/team-logo.jpg" alt="CSK Logo" class="team-logo" />
+    <h1>Chennai Super Kings</h1>
+    <p class="slogan">Whistle Podu!</p>
+  </header>
+
+  <main class="player-grid"></main>
+
+  <div class="modal" id="playerModal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2 id="modalName"></h2>
+      <p><strong>Jersey Number:</strong> <span id="modalJersey"></span></p>
+      <p><strong>Strike Rate:</strong> <span id="modalStrikeRate"></span></p>
+      <p><strong>Matches Played:</strong> <span id="modalMatches"></span></p>
+      <p><strong>Best Performance:</strong> <span id="modalBest"></span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
